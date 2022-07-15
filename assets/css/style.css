@@ -322,11 +322,15 @@ html {
     /* padding: 0 8px; */
 }
 
+.place-img-wrap{
+    overflow: hidden;
+}
+
 .place-img {
     width: 100%;
     display: block;
     transform: scale(1);
-    transition: all ease 0.2s;
+    transition: all ease 0.3s;
 }
 
 .place-img:hover {
